@@ -1,0 +1,4 @@
+#Task 5
+docker volume create shubhamq5
+docker run -it --name shubhamc5q5 -v shubhamq5:/adhocvol -v /etc/baba.txt alpine sh
+wc -l baba.txt > /adhocvol/usercount.txt
