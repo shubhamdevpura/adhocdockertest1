@@ -1,0 +1,21 @@
+# Task 4
+Dockerfile :---
+q4
+
+from centos
+maintainer shubhamdevpura20@gmail.com
+Run yum install httpd -y 
+expose 80
+Entrypoint httpd-DFOREGROUND 
+
+
+PowerShell---
+git clone https://github.com/redashu/beginner-html-site-styled.git
+docker build -t shubham:q4
+docker run -d --name shubhamc4q4 -p 7412:80 shubham:q4
+
+
+open in browser
+https://52.204.127.145:7412
+
+
