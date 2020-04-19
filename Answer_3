@@ -1,0 +1,2 @@
+docker run -d --name shubhamc3q3 -p 2424:80 dockerashu/ckad:v2
+http://52.204.127.145:2424/
