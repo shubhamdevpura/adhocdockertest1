@@ -1,0 +1,5 @@
+# 1 task
+docker build -t alpine:shubham .
+docker run -it --name shubhamc1q1 alpine:shubham
+docker run alpine:shubham  >> shubh.text
+docker run alpine:shubham 
