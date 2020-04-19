@@ -1,0 +1,6 @@
+#Task1
+
+docker build -t adhoc:shubham https://github.com/redashu/summer2020dockertest.git
+docker tag adhoc:shubham shubham/adhoc:shubham
+docker login
+docker push shubham/adhoc:shubham
